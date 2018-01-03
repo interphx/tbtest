@@ -1,0 +1,30 @@
+{
+  "name": "turn-based-tester",
+  "version": "0.1.0",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "webpack -p --config=webpack.client.js",
+    "build:dev": "webpack --config=webpack.client.js",
+    "watch": "webpack --watch --config=webpack.client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.91",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^16.0.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reflect-metadata": "^0.1.10"
+  },
+  "description": ""
+}
